@@ -47,7 +47,7 @@ app.use('/', user);
 // 	console.log(err);
 // });
 
-mongoose.connect(`${process.env.MONGODB_URI}`, {
+mongoose.connect(`${process.env.MONGODB_URI}?retryWrites=true`, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useCreateIndex: true
