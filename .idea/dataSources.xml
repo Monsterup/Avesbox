@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="avesboxGlobal@cluster0-qhg0p.mongodb.net" uuid="d3cde002-f4ac-418c-bcad-f2fbcd5defe9">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb+srv://jati:terimakasih@cluster0-qhg0p.mongodb.net/avesboxGlobal</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="avesboxGlobal@127.0.0.1" uuid="45563575-c0c6-4d8e-9cc7-fb7dcd72e148">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://127.0.0.1:27017/avesboxGlobal</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="avesbox_new@localhost" uuid="7468779f-7e96-445f-9627-fd5bb0a62dea">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/avesbox_new</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="UTC" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
